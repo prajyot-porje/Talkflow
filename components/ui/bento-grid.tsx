@@ -42,6 +42,7 @@ export const BentoGridItem = ({
       <img
         src={src}
         alt="Background"
+
         className="absolute inset-0 w-full h-full object-cover opacity-50 rounded-xl"
       />
       <div className="relative z-10">

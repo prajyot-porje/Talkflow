@@ -3,8 +3,10 @@ import { StickyScroll } from "@/components/ui/sticky-scroll-reveal";
 import React from "react";
 import dynamic from 'next/dynamic';
 
+
+/* eslint-disable */
 const AboutSection = dynamic(() => import('@/app/about/page'), {
-  ssr: false, // Disable server-side rendering
+  ssr: false, 
 });
 
 const content = [

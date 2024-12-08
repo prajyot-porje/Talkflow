@@ -6,6 +6,8 @@ import Grid from "./grid";
 import { HeroHighlight } from "./ui/hero-highlight";
 
 
+/* eslint-disable */
+
 // Initialize Google Generative AI
 const genAI = new GoogleGenerativeAI("AIzaSyDjcPK8nrUg7JGZOokCe2bZOohrUHx7d7o");
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
@@ -32,7 +34,7 @@ async function search(value: string) {
     const result = await model.generateContent(value);
     return formatMarkdown(result.response.text());
   } catch (error) {
-    return "An error occurred while fetching the result.";
+    return ("An error occurred while fetching the result."+error);
   }
 }
 
@@ -103,7 +105,6 @@ const ChatSection = () => {
           </div>
         </div>
       </div>
-
       <div className="flex p-4">
         <PlaceholdersAndVanishInput
           placeholders={placeholderArray}

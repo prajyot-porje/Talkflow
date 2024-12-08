@@ -23,6 +23,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "New chat",
   description: "Explore more with me",
+  icons:'/logo.jpg'
 };
 
 export default function RootLayout({
@@ -38,7 +39,7 @@ export default function RootLayout({
           <div className="absolute top-3 left-4 p-4 flex items-center z-10">
             <div className="h-[45px] w-[45px] mr-2">
               {/* Ensure the image source is correct */}
-              <img src="/logo.jpg" alt="logo website" className="rounded-full" />
+              <img src="/logo.jpg" alt="logo website" width={45} className="rounded-full" />
             </div>
             <div className="text-white text-3xl font-bold">Talkflow</div>
           </div>

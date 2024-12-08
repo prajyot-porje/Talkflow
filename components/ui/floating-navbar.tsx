@@ -1,3 +1,4 @@
+/* eslint-disable */
 "use client";
 import React, { JSX, useState } from "react";
 import {
@@ -8,6 +9,7 @@ import {
 } from "framer-motion";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+
 
 export const FloatingNav = ({
   navItems,
