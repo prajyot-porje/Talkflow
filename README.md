@@ -30,9 +30,6 @@ TalkFlow is an AI-powered chatbot application designed to provide users with int
 - **API**:
   - Gemini API
 
-- **Authentication**:
-  - [Specify any authentication library or framework if used]
-
 ## Installation
 
 Follow these steps to set up the project locally:
