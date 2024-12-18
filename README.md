@@ -82,10 +82,9 @@ Follow these steps to set up the project locally:
 
 For a detailed walkthrough of TalkFlow, watch the video demonstration below:
 
-<video controls width="100%">
-  <source src="/public/video.mp4" type="video/mp4">
-  Your browser does not support the video tag. Please download the video [here](/path-to-your-video.mp4).
-</video>
+[Watch the video demonstration](/public/video.mp4)
+
+You can download and view the video locally by clicking the link above.
 
 ## Contributing
 
