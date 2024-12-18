@@ -16,9 +16,6 @@ TalkFlow is an AI-powered chatbot application designed to provide users with int
   - Tailwind CSS
   - React.js
 
-- **Backend**: 
-  - Node.js (if applicable)
-
 - **API**:
   - Gemini API
 
