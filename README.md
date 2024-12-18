@@ -2,6 +2,17 @@
 
 TalkFlow is an AI-powered chatbot application designed to provide users with intelligent, conversational experiences. The project leverages the Gemini API along with cutting-edge web development technologies to create a user-friendly and responsive chatbot.
 
+## Table of Contents
+
+1. [Features](#features)
+2. [Tech Stack](#tech-stack)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Project Structure](#project-structure)
+6. [Video Representation](#video-representation)
+7. [Contributing](#contributing)
+8. [Contact](#contact)
+
 ## Features
 
 - **AI-Powered Conversations**: Built using the Gemini API for intelligent, context-aware interactions.
@@ -70,6 +81,15 @@ Follow these steps to set up the project locally:
 └── README.md       # Project documentation
 ```
 
+## Video Representation
+
+For a detailed walkthrough of TalkFlow, watch the video demonstration below:
+
+<video controls width="100%">
+  <source src="/public/video.mp4" type="video/mp4">
+  Your browser does not support the video tag. Please download the video [here](/path-to-your-video.mp4).
+</video>
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to TalkFlow, please follow these steps:
@@ -89,16 +109,14 @@ Contributions are welcome! If you'd like to contribute to TalkFlow, please follo
    ```
 5. Submit a pull request to the `main` branch.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
 For any questions or feedback, feel free to reach out:
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [your-username](https://github.com/your-username)
+- **Email**: [porjeprajyot@gmail.com](mailto:porjeprajyot@gmail.com)
+- **GitHub**: [prajyot-porje](https://github.com/prajyot-porje)
 
 ---
+
 
 Happy coding with TalkFlow!
